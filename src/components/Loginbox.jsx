@@ -6,7 +6,22 @@ class Loginbox extends Component {
     render() {
         return (
             <div className='box'>
-                <h1>hello</h1>
+                <form>
+                    <input
+
+                        placeholder="نام کاربری"
+                        type='text'
+                        name='username'
+                    />
+                    <input
+
+                        placeholder="رمز عبور"
+                        type='password'
+                        name='password'
+                    />
+                    <button>ورود</button>
+
+                </form>
             </div>
 
         );

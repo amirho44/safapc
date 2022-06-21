@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'mainfont';
+    src: url(./font/Pfont-Regular-hint.woff);
+}
+
+html,
+body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    font-family: 'mainfont';
+}
