@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Login.css'
 class Loginbox extends Component {
 
@@ -21,7 +22,9 @@ class Loginbox extends Component {
                         name='password'
                     />
 
-                    <button>ورود</button>
+                    <button><Link to="/Dashboard">ورود</Link></button>
+
+
 
 
 

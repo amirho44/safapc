@@ -1,21 +1,24 @@
-
-
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css'
 import './components/Login.css'
 import Dashboard from './Dashboard';
 import Loginbox from './components/Loginbox';
+import Rockets from './Rockets';
 class App extends Component {
 
     render() {
         return (
 
-
             <div>
                 <div className='App'>
-                    <Route exact path="/" component={Loginbox} />
-                    <Route path="/Dashboard" component={Dashboard} />
+
+                    <Switch>
+                        <Route path="/Dashboard" component={Dashboard} />
+                        <Route path="/Rocket" component={Rockets} />
+                        <Route path="/" component={Loginbox} />
+                    </Switch>
+
                 </div>
             </div>
         );
@@ -23,34 +26,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-
-// <div className='App'>
-// <Header />
-// <Loginbox />
-
-// </div>
-
-
-
-// <ul>
-// <li><a href='/'>login</a></li>
-// <li><a href='/Dashboard'>dashboard</a></li>
-
-
-// </ul>
-
-
-
-// <div>
-// <ul>
-//     <li>
-//         <a href='/'>login</a>
-//     </li>
-//     <li>
-//         <a href='/Dashbard'>Dashboard</a>
-//     </li>
-// </ul>
-// </div>

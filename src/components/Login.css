@@ -36,3 +36,8 @@ form button {
 form input[placeholder] {
     text-align: right;
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
