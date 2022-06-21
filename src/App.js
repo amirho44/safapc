@@ -3,7 +3,6 @@
 import React, { Component } from 'react';
 import './App.css'
 import Loginbox from './components/Loginbox';
-
 class App extends Component {
 
     constructor() {
