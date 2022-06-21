@@ -1,13 +1,33 @@
 .content {
-    background-color: rgb(145, 217, 113);
-    width: 90vw;
+    width: 93vw;
     height: 100vh;
-    position: relative;
-    bottom: 0;
+    position: absolute;
     display: flex;
-    border: 2px solid black;
+    box-sizing: border-box;
+
+}
+
+.textbox {
+    top: 20px;
+    position: relative;
+    margin: auto;
+    background-color: aliceblue;
+    width: 98%;
+    height: 93%;
+    border: 1px solid black;
     border-radius: 2rem;
+    overflow: scroll;
+    bottom: 0;
 
 
+}
 
+.textbox::-webkit-scrollbar {
+    display: none;
+}
+
+.textbox p {
+    word-spacing: 8px;
+    white-space: 8px;
+    color: rgba(151, 131, 131, 0.29);
 }

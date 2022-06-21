@@ -1,12 +1,16 @@
 .header {
+    text-align: center;
     position: fixed;
     display: flex;
     flex-direction: row;
     height: 5vh;
-    width: 90vw;
-    background-color: darkcyan;
+    width: 93vw;
+
+    background-color: transparent;
+    border: 1px solid black;
+
     font-size: .8rem;
-    color: #fff;
+    color: rgb(0, 0, 0);
     justify-content: space-between;
     z-index: 9;
 }

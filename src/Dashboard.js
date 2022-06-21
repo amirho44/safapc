@@ -10,12 +10,12 @@ class Dashboard extends Component {
     render() {
         return (
 
-
             <div>
-                <Header />
                 <Sidebar />
+                <Header />
                 <Content />
             </div>
+
         );
     }
 }

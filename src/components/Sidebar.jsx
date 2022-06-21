@@ -5,7 +5,13 @@ class Sidebar extends Component {
     render() {
         return (
             <div className='sidebar'>
-                <h1>HELLO</h1>
+                <div className='sideitems'>
+
+                    <div>داشبورد</div>
+                    <div>موشک ها</div>
+                    <div>پرتاب ها</div>
+
+                </div>
             </div>
         );
     }
