@@ -1,9 +1,10 @@
 
 
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css'
+import Loginbox from './components/Loginbox';
 
-class App extends React.Component {
+class App extends Component {
 
     constructor() {
         super();
@@ -11,7 +12,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <h1>welcome</h1>
+                <Loginbox />
             </div>
         );
     }
