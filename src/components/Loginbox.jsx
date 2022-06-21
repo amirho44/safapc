@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './box.css'
-
-
+import './Login.css'
 class Loginbox extends Component {
+
+
     render() {
         return (
             <div className='box'>
@@ -14,7 +14,7 @@ class Loginbox extends Component {
                         type='text'
                         name='username'
                     />
-                    <label>رمز عبور</label>
+                    <label >رمز عبور</label>
                     <input
                         placeholder="رمز عبور"
                         type='password'
@@ -22,6 +22,8 @@ class Loginbox extends Component {
                     />
 
                     <button>ورود</button>
+
+
 
                 </form>
             </div>

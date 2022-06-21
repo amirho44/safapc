@@ -1,0 +1,13 @@
+.content {
+    background-color: rgb(145, 217, 113);
+    width: 90vw;
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 2rem;
+
+
+
+}
