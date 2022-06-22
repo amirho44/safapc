@@ -8,30 +8,30 @@ class Sidebar extends Component {
 
             //use link
 
-            // <div className='sidebar'>
-            //     <div className='sideitems'>
-
-            //         <div><Link to="/Dashboard">داشبورد</Link></div>
-            //         <div>
-            //             <Link to="/Rocket">موشک ها</Link>
-            //         </div>
-            //         <div>پرتاب ها</div>
-
-            //     </div>
-            // </div>
-
-            //use a tag for links
             <div className='sidebar'>
                 <div className='sideitems'>
 
-                    <div><a href="/Dashboard">داشبورد</a></div>
+                    <div><Link to="/dashboard">داشبورد</Link></div>
                     <div>
-                        <a href="/Rocket">موشک ها</a>
+                        <Link to="/rocket">موشک ها</Link>
                     </div>
                     <div>پرتاب ها</div>
 
                 </div>
             </div>
+
+            //use a tag for links
+            // <div className='sidebar'>
+            //     <div className='sideitems'>
+
+            //         <div><a href="/Dashboard">داشبورد</a></div>
+            //         <div>
+            //             <a href="/Rocket">موشک ها</a>
+            //         </div>
+            //         <div>پرتاب ها</div>
+
+            //     </div>
+            // </div>
 
         );
     }

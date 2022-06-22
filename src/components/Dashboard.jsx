@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css'
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Content from './components/Content';
+import '../App.css'
+import Header from './Header';
+import Sidebar from './Sidebar';
+import Content from './Content';
 
 
 class Dashboard extends Component {
@@ -11,8 +11,8 @@ class Dashboard extends Component {
         return (
 
             <div>
-                <Sidebar />
                 <Header />
+                <Sidebar />
                 <Content />
             </div>
 

@@ -21,14 +21,7 @@ class Loginbox extends Component {
                         type='password'
                         name='password'
                     />
-
-
-                    <button><a href="/Dashboard">ورود</a></button>
-
-
-
-
-
+                    <button><Link to="/dashboard">ورود</Link></button>
                 </form>
             </div>
 
