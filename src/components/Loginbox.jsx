@@ -22,7 +22,8 @@ class Loginbox extends Component {
                         name='password'
                     />
 
-                    <button><Link to="/Dashboard">ورود</Link></button>
+
+                    <button><a href="/Dashboard">ورود</a></button>
 
 
 
@@ -36,3 +37,6 @@ class Loginbox extends Component {
 }
 
 export default Loginbox;
+
+//this is SPA linke
+ // <button><Link to="/Dashboard">ورود</Link></button>
